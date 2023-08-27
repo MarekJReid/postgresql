@@ -1,0 +1,37 @@
+# Ignore node modules
+node_modules/
+
+# Ignore compiled output
+dist/
+
+# Ignore environment files
+.env
+
+# Ignore Docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore logs
+*.log
+
+# Ignore sensitive files
+.senv
+.key
+.secret
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows Thumbs.db files
+Thumbs.db
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
